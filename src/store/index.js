@@ -5,7 +5,8 @@ Vue.use(Vuex)
 //2.创建store对象
 const store = new Vuex.Store({
   state:{},
-  mutations:{}
+  mutations:{},
+  actions:{}
 })
 // 3.挂载Vue实例上
 export default store
